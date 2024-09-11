@@ -10,8 +10,5 @@ tasks:
       source ~/.bashrc
       # 安装 Python 3.7.5
       pyenv install 3.7.5
-      # 切换到 Python 3.7.5
-      pyenv global 3.7.5
-  command: |
-      # 确保再次使用 Python 3.7.5
+      # 设置 Python 3.7.5 为全局版本
       pyenv global 3.7.5
