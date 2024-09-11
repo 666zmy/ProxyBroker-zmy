@@ -12,4 +12,6 @@ tasks:
       pyenv install 3.7.5
       # 切换到 Python 3.7.5
       pyenv global 3.7.5
-  command: pyenv global 3.7.5
+  command: |
+      # 确保再次使用 Python 3.7.5
+      pyenv global 3.7.5
